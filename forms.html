@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forms</title>
+</head>
+<body>
+    <h1> HTML Forms</h1>
+    <form method="get" action="./home.html">
+        <label for="firstname">First Name</label>
+        <input type="text" name="firstname" value="first name" disabled/>
+
+        <label>Last name</label>
+        <input type="text" name="lastname" value="last name" required>
+        <br /><br />
+
+        <label>Email</label>
+        <input type="email">
+
+        <label>Phone Number</label>
+        <input type="number" />
+        <br/><br />
+
+        <label>Password</label>
+        <input type="password" />
+
+        <label>Time</label>
+        <input type="time" />
+        <br /> <br />
+
+        <label>Date</label>
+        <input type="date" />
+
+        <label>Date Time</label>
+        <input type="datetime-local" />
+        <br/><br />
+
+       
+        <label>Gender</label>
+        <input type="radio" />
+        <input type="radio" />
+        <input type="radio" />
+        <input type="radio" />
+        <br /><br />
+
+        <label>Language</label>
+        <label>English</label>
+        <input type="radio" name="language" value="english"/>
+        <label>Kannada</label>
+        <input type="radio" name="language" value="kannada"/>
+        <label>Hindi</label>
+        <input type="radio" name="language" value="hindi"/>
+        <label>Malayalam</label>
+        <input type="radio" name="language" value="malayalam"/>
+        <br /> <br />
+
+        <label>Language</label>
+        <label>English</label>
+        <input type="checkbox" name="lang" value="english"/>
+        <label>Kannada</label>
+        <input type="checkbox" name="lang" value="kannada"/>
+        <label>Hindi</label>
+        <input type="checkbox" name="lang" value="hindi"/>
+        <label>Malayalam</label>
+        <input type="checkbox" name="lang" value="malayalam"/>
+        <br/> <br/>
+
+        <label>Url</label>
+        <input type="url" />
+        <label> upload your file</label>
+        <input type="file"/>
+
+        <textarea name="message" rows="5" cols="40" placeholder="comment">
+            
+    
+        </textarea>
+        <fieldset>
+          <select name="choose an option">
+            <option value="" disabled selected>Select option</option>
+            <optgroup label="beginner">
+            
+            <option value="1">PYTHON</option>
+            <option value="1">CSS</option>
+            <option value="1">JAVA</option>
+            <option >HTML</option>
+            </optgroup>
+            <optgroup label="beginner">
+            <option value="1">express</option>
+            <option value="1">mongodb</option>
+            <option value="1">nodejs</option>
+            <option >HTML</option>
+        </select>
+        <select>
+            <option value="" disabled selected>choose your option</option>
+            <optgroup label="language">
+               <option value="English">English</option>
+               <option value="Hindi">Hindi</option>
+            </optgroup>
+        </select>
+        </fieldset>
+
+        <input type="button">
+        <input type="button" value="Button">
+        <input type="submit">
+
+        
+    </form>
+</body>
+</html>
